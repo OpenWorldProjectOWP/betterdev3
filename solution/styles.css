@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141519;
+}
+
+.card {
+  background: linear-gradient(to top, #191d23, #232a34);
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+header span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  border-radius: 50%;
+  height: 48px;
+  background-color: hsl(210, 20%, 20%);
+}
+header span img {
+  width: 20px;
+  height: 20px;
+}
+.card h3 {
+  margin: 20px 0 10px 0;
+  color: #fefefe;
+  font-size: 28px;
+}
+.card p {
+  color: #8d94a3;
+  font-size: 15px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+ul li a {
+  background-color: #262d37;
+  color: #778089;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+ul li a:focus {
+  background-color: #7a8696;
+  color: white;
+}
+ul li a:hover {
+  background-color: #f97618;
+  color: white;
+}
+button {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #f97618;
+  color: #141519;
+  cursor: pointer;
+  transition: 0.3s background-color;
+}
+button:hover {
+  background-color: #fff;
+  color: #f97618;
+}
+
+#second {
+  display: none;
+  text-align: center;
+}
+#second .image {
+  margin: 20px 0;
+}
+#second p {
+  font-size: 16px;
+}
+#second .ss {
+  margin: 25px 0;
+}
+#second #selected {
+  background-color: #33373a;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: #f97618;
+}
+
+.attribution {
+  color: white;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  background-color: #141519;
+  width: 100%;
+  min-height: 100vh;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
